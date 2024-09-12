@@ -65,6 +65,22 @@ To start the development server and open the application in your browser, follow
 
    Visit [http://localhost:5173](http://localhost:5173) to view the app.
 
+
+## Configuration
+
+StoreX uses environment variables to configure Firebase and other settings. Create a `.env` file in the root of your project and add the following configuration:
+
+```shell
+VITE_APIKEY=YOUR_FIREBASE_API_KEY
+VITE_AUTHDOMAIN=YOUR_FIREBASE_AUTH_DOMAIN
+VITE_PROJECT_ID=YOUR_FIREBASE_PROJECT_ID
+VITE_STORAGE_BUCKET=YOUR_FIREBASE_STORAGE_BUCKET
+VITE_MESSAGING_SENDER_ID=YOUR_FIREBASE_MESSAGING_SENDER_ID
+VITE_APP_ID=YOUR_FIREBASE_APP_ID
+```
+
+Replace the placeholder values with your actual Firebase credentials. Ensure that your `.env` file is included in your `.gitignore` to keep sensitive information secure.
+
 ## Features
 
 - **AI-Driven File Organization**: Automatically categorize and tag files.
