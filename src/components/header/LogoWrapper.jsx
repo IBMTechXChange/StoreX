@@ -22,13 +22,7 @@ const LogoWrapperComponent = ({ onClick, userName }) => {
       </div>
       <Link to={"/home"}>
         <Logo>
-          <img src="https://raw.githubusercontent.com/IBMTechXChange/ConnectX/main/assets/images/logo.png" alt="" />
-          {/* <Lottie
-            loop
-            animationData={lottieJson}
-            play
-            style={{ width: 120, height: 40 }}
-          /> */}
+          <img src="/public/logo.png" alt="" />
           <span>StoreX</span>
         </Logo>
       </Link>

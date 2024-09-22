@@ -8,7 +8,6 @@ import {
   DeleteOutlineIcon,
   CloudQueueIcons,
   HelpIcon,
-  CloseButton,
 } from "../common/SvgIcons";
 import { Modal } from "@mui/material";
 import { NavLink } from "react-router-dom";

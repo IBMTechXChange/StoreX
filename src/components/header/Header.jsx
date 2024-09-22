@@ -1,6 +1,4 @@
-// Header.js
-
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import styled from "styled-components";
 import { auth, provider } from "../../firebase";
 import { onAuthStateChanged, signInWithPopup, signOut } from "firebase/auth";

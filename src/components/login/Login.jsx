@@ -53,12 +53,7 @@ const Login = () => {
         animate={{ x: "0" }}
         transition={{ duration: 0.5 }}
       >
-        <Lottie
-          loop
-          animationData={lottieJson} // Ensure this is a StoreX-themed animation
-          play
-          style={{ width: 120, height: 120 }}
-        />
+        <img src="/public/logo.png" alt="" />
         <h3>Welcome to StoreX</h3>
         <Button onClick={handleAuth}>Sign In with Google</Button>
         <div className="text">
